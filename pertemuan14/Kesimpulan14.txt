@@ -1,0 +1,19 @@
+Abstract Class adalah sebuah class yang tidak bisa di-instansiasi (tidak bisa dibuat menjadi objek) dan berperan sebagai ‘kerangka dasar’ bagi class turunannya. Di dalam abstract class umumnya akan memiliki abstract method.
+
+Contoh :
+menambahkan tulisan abstract didepan class
+
+abstract class Produk {
+	private $judul;
+
+	abstract public function getInfoProduk();
+
+}
+
+class komik extends Produk {
+	public function getInfoProduk() {
+		$str = "komik : ". $this->getInfo() . " ~ {$this->jmlHalaman} Halaman. ";
+		return $str ;
+	}
+}
+ 

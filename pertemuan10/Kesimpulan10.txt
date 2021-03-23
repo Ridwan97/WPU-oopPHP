@@ -1,0 +1,12 @@
+setter 	= digunakan untuk men-set atau mengatur nilai dalam suatu attribute
+Contoh 	:
+	public function setPenulis($penulis) {
+		$this->penulis = $penulis;
+	}
+	
+
+getter	= digunakan untuk mendapatkan nilai dari attribute setter tersebut.
+contoh 	:
+public function getPenulis(){
+		return $this->penulis;
+	}

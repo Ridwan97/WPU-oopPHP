@@ -1,0 +1,26 @@
+Constant / Konstanta = digunakan untuk menyimpan nilai yang nilainya tidak dapat diubah lagi
+
+Contoh :
+define() = diluar class
+define('NAMA',' Muhammad Ridwan');
+echo NAMA;
+
+const = didalam class
+class Coba {
+	const NAMA = 'Muhammad Ridwan';
+}
+
+
+membedakan nilai const dengan variable.
+Const menggunakan capital case/ uppercase.
+sedangakan variabel biasanya menggunakan camel case atau lowercase.
+
+Magic Const : 
+__LINE__
+__FILE__
+__DIR__
+__FUNCTION__
+__CLASS__
+__TRAIT__
+__METHOD__
+__NAMESPACE__

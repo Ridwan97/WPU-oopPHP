@@ -1,0 +1,8 @@
+Class 	= rancangan / blueprint dari sebuah object
+Contoh 	= class Coba {
+	
+	}
+
+
+Object 	= output dari sebuah class object menggunakan keyboard new didepannya
+contoh 	= new Coba();

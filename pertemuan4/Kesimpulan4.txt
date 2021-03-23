@@ -1,0 +1,5 @@
+Constructor Method = method khusus yang otomatis dipanggil ketika sebuah class dibikin objectnya / instancenya
+
+public function __construct(){
+
+}

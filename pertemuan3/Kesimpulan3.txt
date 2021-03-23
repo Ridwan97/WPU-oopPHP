@@ -1,0 +1,15 @@
+Property & Method
+
+
+Property	= adalah data data dari dalam class yang didepannya menggunakan visibility
+Contoh 		= public $judul,
+		 	 $penulis,
+		 	 $penerbit;
+
+Method 	= adalah sebuah perilaku atau aksi dalam sebuah class
+Contoh	= public function sayHello() {
+		return "$this->penulis, $this->penerbit";
+	}
+		
+$this = digunakan untuk mengambil isi dari property yang ada didalam class pada saat melakukan instansi
+

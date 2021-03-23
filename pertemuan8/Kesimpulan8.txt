@@ -1,0 +1,7 @@
+overriding  = mengambil alih / menimpa method parent
+
+di method class child
+contoh : 
+diberi tanda parent::namaMethod();
+
+:: method static = method yang dapat digunakan tanpa harus membuat objek dari class. 

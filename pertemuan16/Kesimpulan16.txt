@@ -1,0 +1,1 @@
+autoloading = berfungsi untuk memanggil class tanpa harus menggunakan require. 1 class (init.php) ditulis dalam 1 file

@@ -1,0 +1,13 @@
+visibility = access modifier
+didalam visibility = 
+	public : dapat diakses diseluruh kode program (parenet class, child class, object)
+	protected : dapat diakses di dalam class dan juga di turunan class (parent class, child class)
+	private : hanya dapat diakses didalam class parent (parent class)
+
+contoh :
+
+public $judul;
+
+protected $diskon;
+
+private $harga;

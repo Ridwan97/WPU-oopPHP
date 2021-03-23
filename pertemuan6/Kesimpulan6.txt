@@ -1,0 +1,3 @@
+Inheritance = Pewarisan adalah sebuah class yang dimana mengapdosi parent child relationship. Yang artinya sebuah class orang tuanya dan anak saling berelasi.
+
+pada inheritance di bagian 1 ini masih kurang efektif dikarenakan penglogikan di dalam method

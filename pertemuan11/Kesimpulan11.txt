@@ -1,0 +1,18 @@
+static keyword :
+member yang tekait dengan class, bukan dengan object
+nilai static akan selalu tetap meskipun object di-instansiasi berualang kali
+membuat kode menjadi "prosedural"
+biasanya digunakan untuk fungsi bantuan /helper
+atau digunakan di class-class utility pada framework
+
+contoh :
+class Contoh {
+	public static $angka = 1;
+
+	public function halo() {
+		return "Hello " . self::$angka++ . " Kali. <br>"; 
+	}
+}
+
+contoh : self::$angka++
+atau parent::$variabel++

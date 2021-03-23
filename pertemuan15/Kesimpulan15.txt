@@ -1,0 +1,10 @@
+Interface adalah sebuah class yang seluruh methodnya adalah abstract method, karena seluruh methodnya adalah abstract method sehingga interface perlu diimplementasikan oleh child class.
+
+Contoh : 
+interface InfoProduk {
+	public function getInfoProduk();
+}
+
+class komik extends Produk implements InfoProduk {
+
+}

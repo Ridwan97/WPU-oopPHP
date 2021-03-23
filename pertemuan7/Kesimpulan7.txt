@@ -1,0 +1,9 @@
+Inheritance = Pewarisan adalah sebuah class yang dimana mengapdosi parent child relationship. Yang artinya sebuah class orang tuanya dan anak saling berelasi.
+
+pada inheritance di bagian 2 ini sudah efektif dikarenakan class produk, komik dan game sudah saling berelasi class produk sebagai parent sedangkan class komik dan game menjadi child.
+
+Contoh : 
+class komik extends Produk {
+
+
+}
